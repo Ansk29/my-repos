@@ -1,0 +1,3 @@
+
+
+let us now try to create a hardlink of this file hadlink basically means ki agar hamari original file delete bhi kar di toh bhi hard link  bana hua rahge unlike the soft link ye aisa isliye hota kyuki inode same he inode vo location he memory ki jaha vo jaha save hota
