@@ -8,7 +8,7 @@ int main() {
     printf("Enter the text you need to input  ");
     fgets(input, sizeof(input), stdin); // stdin call use kara;
 
-    // Alternative: Write directly to STDOUT using fprintf
+    //: Write directly to STDOUT using fprintf
     fprintf(stdout, "Here is the output given by us: %s\n", input);
 
     return 0;
