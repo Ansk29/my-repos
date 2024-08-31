@@ -1,0 +1,10 @@
+This is written by the parent process.
+This is written by the child process.
+This is written by the parent process.
+This is written by the child process.
+This is written by the parent process.
+This is written by the child process.
+This is written by the parent process.
+This is written by the child process.
+This is written by the parent process.
+This is written by the child process.
