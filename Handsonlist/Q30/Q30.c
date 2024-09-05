@@ -40,7 +40,7 @@ int main() {
 
     while (true) {
         if (is_time_to_run(hour, minute)) {
-            system("/path/to/your/script.sh");
+            system("/path.sh");
             sleep(60);
         }
         sleep(1);
