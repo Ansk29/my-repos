@@ -30,7 +30,7 @@ return 1;
 printf(" Descriptor for ourr file %d/n" ,fd);
 
 
-if(close(fd)<0)
+if(close(fd)<0) // close kara bhi jaruri he varna voopen hi reh jayega 
 {
 perror("close");
 return 1;

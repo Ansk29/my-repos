@@ -24,6 +24,6 @@ int main() {
 }
 
 /*
-Enter the text you need to input  hello i am anshul  aur ye ss ka project
+Enter the text you need to input -- hello i am anshul  aur ye ss ka project
 Here is the output given: hello i am anshul  aur ye ss ka project
 */

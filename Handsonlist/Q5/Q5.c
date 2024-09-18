@@ -19,7 +19,7 @@ int main() {
     int fd, file_num = 1;
 
     while (1) {
-        snprintf(filename, sizeof(filename), "file%d.txt", file_num);
+        snprintf(filename, sizeof(filename), "file%d.txt", file_num); // file name create
         fd = open(filename, O_CREAT | O_RDWR, 0644);
         if (fd == -1) exit(EXIT_FAILURE);
         file_num++;

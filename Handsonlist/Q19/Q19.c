@@ -1,4 +1,4 @@
-#include <unistd.h> // ye header use kara he ;
+#include <unistd.h> // ye header use karna he time ke liye ;
 #include <stdio.h>
 #include <stdint.h>
 

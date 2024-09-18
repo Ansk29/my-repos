@@ -22,7 +22,7 @@ int main()
 
    
     if (file != NULL) {
-       // read the characters line by line USING FGETS
+       // read the characters line by line USING FGETS parameters pass karte he line size line ka aut file
         while (fgets(line, sizeof(line), file)) {
           
             printf("%s", line);
@@ -64,6 +64,7 @@ fgetc()  reads  the next character from stream and returns it as an unsigned
 
        Calls to the functions described here can be mixed with each other and  with
        calls  to  other  input  functions from the stdio library for the same input
-       stream.*/
+       stream.
+*/
 
 

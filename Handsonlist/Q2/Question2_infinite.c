@@ -25,7 +25,6 @@ int main() {
 
 ## ls /proc
 
-## $ ps aux | grep infinite
 
 cd /proc/7227 
 
@@ -33,5 +32,5 @@ cat status
 
 cat stat
 
-
+we could also do this with fork and then find out the child ki pid and then use background mein run  kar sakte hproc se 
 */
