@@ -37,3 +37,4 @@ int main() {
     return 0;
 }
 
+/*Read from pipe: Hello, pipe!*/

@@ -33,3 +33,8 @@ int main() {
     return 0;
 }
 
+
+/*Parent process: My PID is 25603, and my child's PID is 25604
+Child process PID is 25604
+Child process using SIGKILL on the parent (PID: 25603)
+Kille*/

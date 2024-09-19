@@ -12,6 +12,7 @@ Date: , 2024.
 #include <stdio.h>
 #include <signal.h>
 #include <unistd.h>
+#include <string.h>
 
 void ignore_sigint(int sig) {
     printf("SIGINT ignored!\n");
@@ -19,15 +20,22 @@ void ignore_sigint(int sig) {
 
 int main() {
     struct sigaction sa_ignore;
-
+    memset(&sa_ignore, 0, sizeof(sa_ignore));
     sa_ignore.sa_handler = ignore_sigint;
+    sigemptyset(&sa_ignore.sa_mask);
 
-    sigaction(SIGINT, &sa_ignore, NULL);
+    if (sigaction(SIGINT, &sa_ignore, NULL) == -1) {
+        perror("sigaction");
+        return 1;
+    }
 
-    printf("SIGINT ignored. ctrl c to try .\n");
+    printf("SIGINT ignored. Press Ctrl+C to try.\n");
     sleep(10);
 
-    printf("bye ignored and exit \n");
+    printf("Exiting program.\n");
     return 0;
 }
 
+/*SIGINT ignored. Press Ctrl+C to try.
+^CSIGINT ignored!
+Exiting program.*/

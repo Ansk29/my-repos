@@ -17,21 +17,23 @@ void handler(int signum) {
 }
 
 int main(void) {
-    // Ignore SIGINT
+    
     signal(SIGINT, SIG_IGN);
 
-    // Pause to wait for signal
+    
     printf("SIGINT is now ignored. Press Ctrl+C to test.\n");
     pause();
 
-    // Reset SIGINT to default action
+
     signal(SIGINT, SIG_DFL);
 
     printf("SIGINT action reset to default.\n");
 
-    // Pause again to see the effect
+
     pause();
 
     return 0;
 }
 
+
+/*SIGINT is now ignored. Press Ctrl+C to test. */

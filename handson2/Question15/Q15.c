@@ -45,3 +45,5 @@ int main() {
     return 0;
 }
 
+
+/*Child received: Hello from parent!*/

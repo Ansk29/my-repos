@@ -3,7 +3,7 @@
 Name : 3.c
 Author : Anshul Kakirde
 Description : Write a program to set (any one) system resource limit. Use setrlimit system call.
-Date : 
+Date : 19 Sept 2024
 ============================================================================
 */
 

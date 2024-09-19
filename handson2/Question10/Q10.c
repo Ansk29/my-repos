@@ -32,13 +32,13 @@ int main(void) {
     sigemptyset(&sa.sa_mask);
     sa.sa_flags = 0;
 
-    // Setup SIGSEGV handler
+  
     if (sigaction(SIGSEGV, &sa, NULL) == -1) {
         perror("sigaction");
         exit(1);
     }
 
-    // Setup SIGINT handler
+
     if (sigaction(SIGINT, &sa, NULL) == -1) {
         perror("sigaction");
         exit(1);
@@ -51,4 +51,6 @@ int main(void) {
 
     return 0;
 }
+
+
 
