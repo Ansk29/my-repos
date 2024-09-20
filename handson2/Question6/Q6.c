@@ -3,7 +3,7 @@
 Name : 6.c
 Author : Anshul Kakirde
 Description : Write a simple program to create three threads.
-Date: , 2024.
+Date: 16sept 2024.
 ============================================================================
 */
 

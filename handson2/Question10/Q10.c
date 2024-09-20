@@ -4,7 +4,7 @@ Name : 10.c
 Author : Anshul Kakirde
 Description : 9. Write a program to ignore a SIGINT signal then reset the default action of the SIGINT
 signal - Use signal system call.
-Date: , 2024.
+Date: 18Sept, 2024.
 ============================================================================
 */
 

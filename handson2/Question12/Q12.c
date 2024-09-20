@@ -3,7 +3,7 @@
 Name : 12.c
 Author : Anshul Kakirde
 Description :Write a program to create an orphan process. Use kill system call to send SIGKILL signal to the parent process from the child process. signal - Use signal system call.
-Date: , 2024.
+Date: 18sept, 2024.
 ============================================================================
 */
 #include <stdio.h>

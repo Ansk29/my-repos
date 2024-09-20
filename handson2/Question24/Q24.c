@@ -4,7 +4,7 @@
 Name : 24.c
 Author : Anshul Kakirde
 Description: Write a program to create a message queue and print the key and message queue id.
-Date: , 2024.
+Date: !9 sept, 2024.
 ============================================================================
 */
 

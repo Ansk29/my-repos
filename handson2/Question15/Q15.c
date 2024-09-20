@@ -4,7 +4,7 @@
 Name : 15.c
 Author : Anshul Kakirde
 Description: Write a simple program to send some data from parent to the child process.
-Date: , 2024.
+Date: 19 sept, 2024.
 ============================================================================
 */
 

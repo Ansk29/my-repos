@@ -3,7 +3,7 @@
 Name : 28.c
 Author : Anshul Kakirde
 Description: Write a program to change the exiting message queue permission. (use msqid_ds structure)
-Date: , 2024.
+Date: 20 sept, 2024.
 ============================================================================
 */
 #include <stdio.h>

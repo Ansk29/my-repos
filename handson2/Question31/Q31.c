@@ -5,7 +5,7 @@ Author : Anshul Kakirde
 Description: . . Write a program to create a semaphore and initialize value to the semaphore.
 a. create a binary semaphore
 b. create a counting semaphore
-Date: , 2024.
+Date: 20 sept, 2024.
 ============================================================================
 */
 

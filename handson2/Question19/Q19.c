@@ -9,7 +9,7 @@ b. mkfifo command
 c. use strace command to find out, which command (mknod or mkfifo) is better.
 c. mknod system call
 d. mkfifo library function
-Date: 20sept, 2024.
+Date: 19sept, 2024.
 ============================================================================
 */
 

@@ -3,7 +3,7 @@
 Name : 26.c
 Author : Anshul Kakirde
 Description :rite a program to send messages to the message queue. Check $ipcs
-Date: , 2024.
+Date: 20 Sept , 2024.
 ============================================================================
 */
 

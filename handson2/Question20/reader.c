@@ -1,3 +1,13 @@
+
+/*
+============================================================================
+Name : 20.c
+Author : Anshul Kakirde
+Description: 20. Write two programs so that both can communicate by FIFO -Use one way communication.
+Date: 19sept, 2024.
+============================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>

@@ -7,7 +7,7 @@ a. write some data to the shared memory
 b. attach with O_RDONLY and check whether you are able to overwrite.
 c. detach the shared memory
 d. remove the shared memory
-Date: , 2024.
+Date: 20 sept, 2024.
 ============================================================================
 */
 #include <stdio.h>

@@ -3,7 +3,7 @@
 Name : 29.c
 Author : Anshul Kakirde
 Description: . 29. Write a program to remove the message queue.
-Date: , 2024.
+Date: 20 sept, 2024.
 ============================================================================
 */
 

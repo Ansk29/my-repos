@@ -5,7 +5,7 @@ Name : 14.c
 Author : Anshul Kakirde
 Description: Write a simple program to create a pipe, write to the pipe, read from pipe and display on
 the monito
-Date: , 2024.
+Date: 18sept, 2024.
 ============================================================================
 */
 

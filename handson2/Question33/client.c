@@ -1,3 +1,12 @@
+/*
+============================================================================
+Name : 33.c
+Author : Anshul Kakirde
+Description: 33. Write a program to communicate between two machines using socket.
+Date:  21 sept 2024.
+============================================================================
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
